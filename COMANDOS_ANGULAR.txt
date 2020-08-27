@@ -1,0 +1,4 @@
+ng new my-proyecto-angular(CREAR PROYECTO ANGULAR)
+ng serve(EJECUTAR PROYECTO)
+ng g c componentes/final(CREAR UN COMPONENTE)
+ng g s nombreServicio(CREAR UN COMPONENTE SERVICIO)

@@ -1,0 +1,51 @@
+
+
+.contenedor_principal{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+}
+.encabezado , .cuerpo, .final{
+    border: 1px solid black;
+}
+
+.redireccion{
+cursor:pointer;
+}
+
+
+/*.contenedor_principal{
+height: 100%;
+}
+
+.encabezado{
+    background: green;
+    height: 15%;
+}
+.cuerpo{
+    background:black;
+    height: 75%;
+    display: flex;
+    
+}
+.final{
+    background: hotpink;
+    height: 10%;
+}
+
+.lado_izquierdo{
+    background: blue;
+    height: 100%;
+    width: 20%;
+}
+.centro{
+    background: coral;
+    width: 50%;
+    height: 100%;
+}
+.lado_der{
+    background: brown;
+    width:30%;
+    height:100% ;
+}
+*/

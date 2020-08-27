@@ -1,0 +1,29 @@
+
+<div class="d-flex justify-content-right align-items-right h-50">
+
+<table class="table table-striped table-danger">
+    <thead class>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Genero</th>
+        <th scope="col">Correo</th>
+        <th scope="col">Ciudad</th>
+      </tr>
+    </thead>
+    <tbody>
+       
+      <tr class="table-danger" *ngFor="let item of colaboradores; let i=index">
+        <th scope="row">{{i+1}}</th>
+        <td>{{item.nombre}}</td>
+        <td >{{item.apellido}}</td>
+        <td >{{item.genero}}</td>
+        <td >{{item.correo}}</td>
+        <td >{{item.ciudad}}</td>
+        <td >
+      </tr>
+  
+    </tbody>
+  </table>
+</div>
